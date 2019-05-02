@@ -7,6 +7,13 @@
 	border: 0;
 }
 
+body{
+	font-family:'josefin_sanslight';
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'josefin_sanssemibold';
+}
 nav{
 	width: 100%;
 	height: 70px;
@@ -88,7 +95,6 @@ ul#menuPrincipal li{
 }
 ul#menuPrincipal li a{
 	text-decoration: none;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size:20px;
 	color: black;
 	font-weight: 100;
@@ -137,20 +143,18 @@ div#instagram:hover{
 }
 
 div#centrarPromo h2{
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 40px;
 	color: #A1C133;
 	font-weight: 300;
 	float: right;
 	position: absolute;
 	top: 132px;
-	left: 664px;
+	left: 625px;
 	text-align: right;
 	
 }
 
 div#centrarPromo p{
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 25px;
 	color: black;
 	font-weight: 100;
@@ -161,19 +165,33 @@ div#centrarPromo p{
 }
 
 /*falta contenidos*/
-/*falta ubicacion*/
+div#boxmapa{
+	width: 720px;
+	height: 285px;
+	position: absolute;
+	top: 112px;
+	left: 236px;
+	background-color: #A1C133;
+	
+}
+
+iframe#mapa{
+	margin-left: 22px;
+	margin-top: -60px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
 
 div#centrarFooter img{
 	position: absolute;
-	top: 60px;
-	left: 86px;
+	top: 50px;
+	left: 10px;
 }
 
 ul#menufooter{
 	float: left;
 	position: absolute;
-	top: 65px;
-	left: 290px;
+	top: 50px;
+	left: 204px;
 }
 
 ul#menufooter li{
@@ -184,14 +202,13 @@ ul#menufooter li{
 ul#menufooter li a{
 	text-decoration: none;
 	color: white;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 14px;
 	
 }
 
 ul#iconosredesfooter{
 	position: absolute;
-	top: 66px;
+	top: 53px;
 	left: 408px;
 	list-style: none;
 	
@@ -212,7 +229,7 @@ div#footertwitter{
 	background-image:url(../../img/redes/twitterWhite.svg);
 	width: 23px;
 	height: 18px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 div#footertwitter:hover{
@@ -230,12 +247,86 @@ div#footerinstagram:hover{
 	background-image: url(../../img/redes/inHover.svg);	
 	}
 
+ul#textoredesfooter{
+	position: absolute;
+	list-style: none;
+	top: 50px;
+	left: 445px;
+	
+}
+ul#textoredesfooter li a{
+	text-decoration: none;
+}
+
+div#footertextofacebook{
+	font-size: 15px;
+	color: white;
+	margin-bottom: 16px;
+	
+}
+
+div#footertextotwitter{
+	font-size: 15px;
+	color: white;
+	margin-bottom: 16px;
+	
+}
+
+div#footertextoinstagram{
+	font-size: 15px;
+	color: white;
+	
+}
+
+div#centrarFooter p#contacto{
+	position: absolute;
+	top: 50px;
+	left: 616px;
+}
+
+input#cajaemail{
+	position: absolute;
+	top: 85px;
+	left: 616px;
+	width: 210px;
+	height: 40px;
+	background-color: transparent;
+	font-size: 12px;
+	border: solid 1px white;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	padding-left: 20px;
+	
+}
+
+input#enviar{
+	position: absolute;
+	top: 85px;
+	left: 826px;
+	width: 60px;
+	height: 42px;
+	background-color: white;
+	font-size: 12px;
+	padding-left: 24px;
+	padding-left: 5px;
+	color: black;
+	border: solid 1px white;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+::-webkit-input-placeholder{color:white; }/*safari y chrome*/
+::-mox-input-placeholder {color: white;}/*mozila firefox*/
+::-ms-input-placeholder{color: white;} /*microsoft ie o edge*/
+::-o-input-placeholder{color:white;}/*opera*/
+input-placeholder{color:white;} /*universal*/
+
+
 div#centrarFooter p{
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 14px;
 	color: white;
 	position: absolute;
-	top: 63px;
+	top: 50px;
 	left: 930px;
 	line-height: 22px;
 }
