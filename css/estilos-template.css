@@ -70,7 +70,6 @@ footer{
 div#centrarNav, div#centrarHeader, div#centrarPromo, div#centrarContenidos, div#centrarUbicacion, div#centrarFooter{
 	width: 1200px;
 	height: 100%;
-	background-color: rgba(204,193,53,0.64);
 	margin: 0 auto;
 	position: relative;
 	
@@ -278,6 +277,19 @@ div#footertextoinstagram{
 	
 }
 
+div#footertextofacebook:hover{
+	color: #FF5E60;
+}
+
+div#footertextotwitter:hover{
+	color: #FF5E60;
+	
+}
+
+div#footertextoinstagram:hover{
+	color: #FF5E60;
+}
+
 div#centrarFooter p#contacto{
 	position: absolute;
 	top: 50px;
@@ -296,6 +308,7 @@ input#cajaemail{
 	border-top-left-radius: 4px;
 	border-bottom-left-radius: 4px;
 	padding-left: 20px;
+	color: white;
 	
 }
 
@@ -313,6 +326,7 @@ input#enviar{
 	border: solid 1px white;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
+	cursor: pointer;
 }
 
 ::-webkit-input-placeholder{color:white; }/*safari y chrome*/
