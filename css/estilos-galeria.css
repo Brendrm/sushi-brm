@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section#contenidos{
+	height: 931px;
+}
+
+div#descripcion{
+	width: 306px;
+	height: 155px;
+	position: absolute;
+	top: 242px;
+	left: 102px;
+}
+
+h2.titulo{
+	position: absolute;
+	top: 126px;
+	left: 676px;
+}
+
+div#descripcion h3#titulogaleria{
+	color: #D0E542;
+	font-size: 40px;
+	
+}
+
+div#descripcion p#textogaleria{
+	color: white;
+	font-size: 16px;
+	
+}
+
+div#foto{
+	width: 582px;
+	height: 708px;
+	position: absolute;
+	top: 147px;
+	left: 612px;
+	background-color: white;
+}
+
+div#miniaturas{
+	width: 589px;
+	height: 281px;
+	position: absolute;
+	top: 585px;
+	left: 0px;
+	background-color: transparent;
+	
+}
+

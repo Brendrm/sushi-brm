@@ -3,12 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Home Sushi`Roll</title>
+<title>Template Sushi</title>
 <!-- InstanceEndEditable -->
-<link rel="stylesheet" href="css/estilos-template.css">
-	<link href="webfontkit-josefine/josefine-font.css" rel="stylesheet">
+<link rel="stylesheet" href="estilos-template.css">
+	<link href="../webfontkit-josefine/josefine-font.css" rel="stylesheet">
 	<!-- InstanceBeginEditable name="head" -->
-	<link href="css/estilos-index.css" rel="stylesheet">
+	<link href="estilo-servicios.css" rel="stylesheet">
+	<link href="../jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	<link href="../jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="../jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+	<script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+	<script src="../jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
 	<!-- InstanceEndEditable -->
 </head>
 
@@ -16,22 +21,22 @@
 	
 	<nav>
 	<div id="centrarNav">
-		<img src="img/sushi_logo.png">
+		<img src="../img/sushi_logo.png">
 		<ul id="menuPrincipal">
 			<li>
-				<a href="index.html">Inicio</a>
+				<a href="../index.html">Inicio</a>
 			</li>
 			
 			<li>
-				<a href="galeria.html">Galería</a>
+				<a href="../galeria.html">Galería</a>
 			</li>
 			
 			<li>
-				<a href="servicios.html">Servicios</a>
+				<a href="../servicios.html">Servicios</a>
 			</li>
 			
 			<li>
-				<a href="contacto.html">Contacto</a>
+				<a href="../contacto.html">Contacto</a>
 			</li>
 		</ul>
 		
@@ -64,7 +69,7 @@
  	<section id="promo">
 		<div id="centrarPromo">
 			<!-- InstanceBeginEditable name="Promociones" -->
-			<h2>SIEMPRE UNA SORPRESA<br>PENSADA PARA TI</h2>
+			<h2>VARIEDADES DE ROLLOS<br>PENSADOS EN TI</h2>
 			<p>Descubre lo que tenemos preparado</p>
 			<!-- InstanceEndEditable -->
 		</div>
@@ -73,32 +78,36 @@
 	<section id="contenidos">
 	<div id="centrarContenidos">
 		<!-- InstanceBeginEditable name="Area de contenidos" -->
-	<h2 class="titulo">NUESTRAS ESPECIALIDADES</h2>
-		<div class="boxRollo">
-			<div id="sushi1"></div>
-		</div>
-		<div class="boxRollo">
-		<div id="sushi2"></div>
-		</div>
-		<div class="boxRollo">
-		<div id="sushi3"></div>
-		</div>
-		<div class="boxRollo">
-		<div id="sushi4"></div>
-		</div>
-		<div class="boxRollo">
-		<div id="sushi5"></div>
-		</div>
-		<div class="boxRollo">
-		<div id="sushi6"></div>
-		</div>
-		<div class="boxRollo">
-		<div id="sushi7"></div>
-		</div>
-		<div class="boxRollo">
-		<div id="sushi8"></div>
-		</div>
+		<h2 class="titulo">NUESTROS SERVICIOS</h2>
+			
+		<div id="boxacordeon">
+		  <div id="Accordion1">
+			  <h3><a href="#">Paquete 1</a></h3>
+			  <div>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea amet maiores ratione totam fugit excepturi dolorem harum, soluta vero voluptates nam veritatis, distinctio beatae. Necessitatibus beatae ipsa totam molestiae praesentium!</p>
+		    </div>
+			  <h3><a href="#">Paquete 2</a></h3>
+			  <div>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab facere eligendi animi vero eveniet ducimus nemo officia deserunt eos consequatur quasi eum, quos sint minima, dolorum, harum nobis odit dignissimos.</p>
+		    </div>
+			  <h3><a href="#">Paquete 3</a></h3>
+			  <div>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto placeat cumque praesentium, minus, quae sed ratione maxime vero vitae necessitatibus consequatur voluptates nemo, sit ullam! Nobis culpa sit quasi impedit!</p>
+		    </div>
+			  <h3><a href="#">Paquete 4</a></h3>
+			  	<div>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde mollitia reprehenderit, nemo cumque optio inventore, minima, facere ex, laudantium eveniet consectetur debitis. Aliquam nulla fuga, error numquam minus quia voluptatibus!</p>
+			  </div>
+		  </div>
+        </div>
+		<div id="boxtabs"></div>
 		
+		
+		<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+        </script>
 		<!-- InstanceEndEditable -->
 		</div>
 	</section>
@@ -116,19 +125,19 @@
 			<img src="sushi_logo.png">
 			<ul id="menufooter">
 			<li>
-				<a href="index.html">Inicio</a>
+				<a href="../index.html">Inicio</a>
 			</li>
 			
 			<li>
-				<a href="galeria.html">Galería</a>
+				<a href="../galeria.html">Galería</a>
 			</li>
 			
 			<li>
-				<a href="servicios.html">Servicios</a>
+				<a href="../servicios.html">Servicios</a>
 			</li>
 			
 			<li>
-				<a href="contacto.html">Contacto</a>
+				<a href="../contacto.html">Contacto</a>
 			</li>
 		</ul>
 		

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section#contenidos{
+	height: 832px;
+}
+
+h2.titulo{
+	color: #D0E542;
+	font-size: 40px;
+}
+
+div#boxacordeon{
+	width: 582px;
+	height: 558px;
+	background-color: white;
+	position: absolute;
+	top: 149px;
+	left: 0px;
+}
+
+div#boxtabs{
+	width: 582px;
+	height: 558px;
+	background-color: white;
+	position: absolute;
+	top: 149px;
+	left: 612px;
+}
+
