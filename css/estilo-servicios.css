@@ -19,6 +19,8 @@ div#boxacordeon{
 	left: 0px;
 }
 
+
+
 div#boxtabs{
 	width: 582px;
 	height: 558px;
@@ -27,4 +29,59 @@ div#boxtabs{
 	top: 149px;
 	left: 612px;
 }
+
+div#Accordion1 div{
+	position: relative;
+}
+
+div#Accordion1 img{
+	float: left;
+	margin-right: 40px;
+	position: absolute;
+	top: 57px;
+	left: 54px;
+}
+
+div#Accordion1 h4{
+	font-size: 20px;
+	color: #FF5E60;
+	position: absolute;
+	top: 81px;
+	left: 328px;
+}
+
+div#Accordion1 p{
+	font-size: 14px;
+	color: #FF5E60;
+	position: absolute;
+	top: 190px;
+	left: 328px;
+}
+
+/*Faltan la img4 de acordeon*/
+
+div#Tabs1 div{
+	position: relative;
+}
+
+div#Tabs1 img{
+	position: absolute;
+	top: 23px;
+	left: 53px;
+}
+div#Tabs1 p{
+	-webkit-colum-count:2;
+	-webkit-colum-gap:15px;
+	column-count: 2;
+	column-gap: 30px;
+	color: #FF5E60;
+	font-size: 15px;
+	position: absolute;
+	top: 315px;
+	left: 72px;
+	margin-right: 65px;
+}
+
+
+
 
