@@ -1,3 +1,99 @@
 @charset "UTF-8";
 /* CSS Document */
+div#centrarContenidos{
+	height: 603px;
+}
+
+h2.titulo{
+	font-size: 40px;
+	color: #D0E542;
+	text-align: center;
+	padding-top: 50px;
+}
+div#cajaformulario{
+	width: 408px;
+	height: 309px;
+	background-color: transparent;
+	position: absolute;
+	top: 163px;
+	left: 102px;
+}
+
+div#cajacontacto{
+	width: 408px;
+	height: 309px;
+	background-color: transparent;
+	position: absolute;
+	top: 163px;
+	left: 684px;
+}
+
+td{
+	color: white;
+	font-size: 20px;
+	padding-left: 30px;
+}
+div#cajaformulario input{
+	width: 206px;
+	height: 40px;
+	border: solid 1px #D0E542;
+	background-color: transparent;
+	border-radius: 6px;
+	margin-left: 17px;
+	margin-top: 15px;
+	margin-right: 18px;
+	color: white;
+	padding-left: 10px;
+	font-size: 14px;
+}
+textarea{
+	width: 206px;
+	height: 40px;
+	border: solid 1px #D0E542;
+	background-color: transparent;
+	border-radius: 6px;
+	margin-left: 17px;
+	margin-top: 15px;
+	margin-right: 18px;
+	color: white;
+	resize: none;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+ td input#botonenviar{
+	width: 94px;
+	height: 33px;
+	color: white;
+	background-color: #D0E542;
+	font-size: 16px;
+	float: right;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder{color: #DDDDDD;}
+::-moz-input-placeholder{color: #DDDDDD;}
+::-ms-input-placeholder{color: #DDDDDD;}
+::-o-input-placeholder{color: #DDDDDD;}
+
+div#cajacontacto img{
+	position: absolute;
+	top: 15px;
+	left: 120px;
+}
+
+div#cajacontacto h6{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 139px;
+	margin-bottom: 30px;
+}
+
+div#cajacontacto p{
+	font-size: 22px;
+	color: white;
+	text-align: center;
+}
 

@@ -73,7 +73,42 @@
 	<section id="contenidos">
 	<div id="centrarContenidos">
 		<!-- InstanceBeginEditable name="Area de contenidos" -->
-		Area de contenidos
+		<h2 class="titulo">CONTACTO</h2>
+		<div id="cajaformulario">
+			<form action="PHPMailer/contacto.php" method="post">
+			<table width="400" border="0">
+			  <tbody>
+				<tr>
+				  <td>Nombre:</td>
+				  <td><input type="text" placeholder="John Doe" name="nombre" required></td>
+				</tr>
+				<tr>
+				  <td>Email:</td>
+				  <td><input type="email" placeholder="ejemplo@gmail.com" name="email" required></td>
+				</tr>
+				<tr>
+				  <td>Teléfono:</td>
+				  <td><input type="tel" placeholder="55-55-55-55" name="telefono" required></td>
+				</tr>
+				<tr>
+				  <td>Comentarios:</td>
+				  <td><textarea placeholder="Déjanos tus comentarios" name="mensaje" required></textarea></td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+				  <td><input type="submit" id="botonenviar" required></td>
+				</tr>
+			  </tbody>
+				</table>
+				</form>
+		</div>
+		<div id="cajacontacto">
+			<img src="img/sushi_logocontacto.png">
+			<h6>SUSHI ROLL</h6>
+			<p>Distrito Federal, México
+contacto@sushiroll.com<br>
+Tel: 55-4193-3030</p>
+		</div>
 		
 		
 		<!-- InstanceEndEditable -->
